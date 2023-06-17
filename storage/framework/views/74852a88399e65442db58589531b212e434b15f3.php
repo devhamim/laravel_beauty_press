@@ -1,0 +1,1 @@
+<?php /**PATH /Applications/XAMPP/xamppfiles/htdocs/Anandadhara/vendor/rappasoft/laravel-livewire-tables/src/../resources/views/stubs/modals.blade.php ENDPATH**/ ?>

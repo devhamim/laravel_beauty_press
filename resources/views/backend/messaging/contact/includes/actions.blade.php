@@ -1,0 +1,1 @@
+<x-utils.delete-button :href="route('admin.messaging.contact.destroy', $contact)" />

@@ -1,0 +1,49 @@
+.order-table table th,
+table td {
+    vertical-align: inherit !important;
+    font-size: 14px;
+}
+
+.leader-section {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding-left: 50%;
+    transform: translateY(-50%);
+    z-index: 9000;
+}
+
+
+@media (max-width: 575px) {
+
+
+    .row .col-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    display: contents;
+}
+ .row .col-3 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    display: contents;
+}
+ .row .col-1 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    display: contents;
+}
+ .row .col-3 .col-7 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    display: contents;
+    padding-left: 10px;
+   
+}
+ /* .row .col-3 .col-5 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    display: contents;
+} */
+
+}

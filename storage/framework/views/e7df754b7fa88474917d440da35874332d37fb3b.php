@@ -1,0 +1,1 @@
+<?php /**PATH D:\beauty spa\Anandadhara\vendor\rappasoft\laravel-livewire-tables\src\/../resources/views/stubs/modals.blade.php ENDPATH**/ ?>

@@ -1,0 +1,311 @@
+body {
+  color: #000;
+  font-family: Times New Roman;
+}
+
+#wrapper {
+  max-width: 95%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.btn {
+  border-radius: 0;
+  margin-bottom: 5px;
+}
+
+.bootbox .modal-footer {
+  border-top: 0;
+  text-align: center;
+}
+
+h4 {
+  margin: 5px 0;
+}
+
+.order_barcodes img {
+  float: none !important;
+  margin-top: 5px;
+}
+
+p {
+  font-size: 12px;
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+
+  #wrapper {
+    width: 100%;
+    min-width: 250px;
+    margin: 0 auto;
+  }
+
+  .no-border {
+    border: none !important;
+  }
+
+  .border-bottom {
+    border-bottom: 1px solid #ddd !important;
+  }
+
+  table tfoot {
+    display: table-row-group;
+  }
+
+  .tbl {
+    page-break-inside: auto;
+  }
+
+  .tbl tr {
+    page-break-inside: avoid;
+    page-break-after: auto
+  }
+
+  .tbl td {
+    border: 1px solid #a2a2a2;
+    font-size: 14px;
+    padding: 3px 6px 2px !important;
+  }
+
+  tr.noBorder td {
+    border: 0 !important;
+  }
+
+  .tablePage {
+    page-break-inside: auto;
+  }
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+}
+
+@media print {
+  .no_print {
+    display: none !important;
+  }
+
+  .inv_black {
+    -webkit-print-color-adjust: exact;
+    background-color: #000 !important;
+    color: #fff !important;
+    font-weight: bold;
+    color: #fff;
+    font-size: 25px;
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3px 8px;
+    margin-top: 10px;
+    border-radius: 3px;
+  }
+
+
+  footer {
+      position: static; /* <-- Key line */
+      width: 100%;
+      bottom: 0;
+      left: 0;
+  }
+
+  .content-block, p {
+    page-break-inside: avoid;
+  }
+}
+
+/* for footer print*/
+
+.inv_black {
+  -webkit-print-color-adjust: exact;
+  background-color: #000;
+  font-weight: bold;
+  color: #fff;
+  font-size: 25px;
+  display: table;
+  text-align: center;
+  margin: 0 auto;
+  padding: 3px 8px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.tbl {
+  page-break-inside: auto;
+}
+
+.tbl tr {
+  page-break-inside: avoid;
+  page-break-after: auto
+}
+
+.tbl td {
+  border: 1px solid #a2a2a2;
+  font-size: 14px;
+  padding: 3px 6px 2px !important;
+}
+
+tr.noBorder td {
+  border: 0 !important;
+}
+
+.tablePage {
+  page-break-inside: auto;
+}
+
+.logo_header {
+  margin-bottom: 18px;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+.width_100_p {
+  width: 100% !important;
+}
+
+.width_40_p {
+  width: 40% !important;
+}
+
+.width_75_p {
+  width: 100% !important;
+}
+
+.width_250_px {
+  width: 250px !important;
+}
+
+.p_txt_1 {
+  text-align: center !important;
+  margin: 0px !important;
+}
+
+.p_txt_2 {
+  text-align: center !important;
+  margin: 0px auto !important;
+  width: 500px !important;
+}
+
+.p_txt_3 {
+  text-align: center !important;
+  margin: 0px !important;
+  font-size: 18px !important;
+}
+
+.p_txt_4 {
+  width: 60% !important;
+  float: left !important;
+}
+
+.p_txt_5 {
+  vertical-align: top !important;
+  width: 20% !important;
+}
+
+.p_txt_6 {
+  vertical-align: top !important;
+}
+
+.p_txt_7 {
+  background-color: #5c5c5c !important;
+  color: white !important;
+  border: 1px solid white !important;
+  padding: 6px !important;
+}
+
+.p_txt_8 {
+  padding: 6px !important;
+  font-weight: bold !important;
+  width: 1% !important;
+}
+
+.p_txt_9 {
+  padding: 6px !important;
+  font-weight: bold !important;
+}
+
+.p_txt_10 {
+  padding: 6px !important;
+  font-weight: bold !important;
+  width: 15% !important;
+}
+
+.p_txt_15_10 {
+  padding: 6px !important;
+  font-weight: bold !important;
+  width: 10% !important;
+}
+
+.p_txt_11 {
+  padding: 6px !important;
+  font-weight: bold !important;
+  width: 15% !important;
+  text-align: right !important;
+}
+
+.p_txt_12 {
+  float: left !important;
+  width: 100% !important;
+}
+
+.p_txt_13 {
+  width: 25% !important;
+  float: left !important;
+}
+
+.p_txt_14 {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  border-top: 1px solid black !important;
+  text-align: center !important;
+}
+
+.p_txt_15 {
+  width: 25% !important;
+  float: right !important;
+}
+
+.p_txt_16 {
+  padding-top: 10px !important;
+  text-transform: uppercase !important;
+}
+
+.p_txt_17 {
+  background: #F5F5F5 !important;
+  padding: 10px !important;
+  color: red !important;
+}
+
+.p_txt_18 {
+  font-weight: bold !important;
+  text-transform: none !important;
+}
+
+.p_txt_19 {
+  text-transform: capitalize !important;
+}
+
+.c_txt_right {
+  text-align: right;
+}
+
+.c_txt_left {
+  text-align: left;
+}
+
+.clear_both {
+  clear: both !important;
+}
+
+
+
+
+
